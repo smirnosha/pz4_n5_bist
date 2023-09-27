@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.plot([0, 7], [-2, 3])
+plt.plot([0, 3], [3, 0])
+plt.plot([0, 7], [7, 0])
+plt.plot([2, 2], [-2, 7])
+
+plt.title('График функции')
+# создание графика и его отображение
+plt.show()
